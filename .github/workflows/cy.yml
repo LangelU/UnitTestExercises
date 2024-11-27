@@ -26,8 +26,8 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
 
-      - name: Run tests
+      - name: Run ClaseSeis
         run: |
-          python -m pytest -s tests
+          python -m pytest -s ClaseSeis
 
 
