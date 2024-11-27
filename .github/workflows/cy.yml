@@ -28,6 +28,6 @@ jobs:
 
       - name: Run ClaseSeis
         run: |
-          python -m pytest discover -s ClaseSeis
+          python -m pytest -s ClaseSeis
 
 
